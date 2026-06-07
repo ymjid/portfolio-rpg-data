@@ -1,8 +1,50 @@
 {
-  "character": {},
-  "skills": [],
-  "quests": [],
+  "character": {
+    "name": "Yan",
+    "class": "Class",
+    "state": "Working"
+  },
+  "skills": [
+    {
+      "name": "bla",
+      "rate": "3"
+    },
+    {
+      "name": "blabla",
+      "rate": "1"
+    }
+  ],
+  "quests": [
+    {
+      "name": "quest",
+      "description": "esgfdgfd",
+      "state": "progress",
+      "release": "2020",
+      "preview": "",
+      "theme": "theme 1",
+      "code": "",
+      "tags": [
+        "tag 1"
+      ],
+      "subquests": [],
+      "images": []
+    }
+  ],
   "gear": [],
-  "tags": [],
-  "themes": []
+  "tags": [
+    "tag 1",
+    "tag 2"
+  ],
+  "themes": [
+    {
+      "name": "theme 1",
+      "variables": {
+        "--portal-primary": "a",
+        "--portal-bg": "s",
+        "--portal-text": "d",
+        "--portal-card": "c",
+        "--portal-border": "v"
+      }
+    }
+  ]
 }
